@@ -19,3 +19,16 @@ body {
   color: #777;
   padding: 30px;
 }
+
+.header {
+  background-image: linear-gradient(
+    to right bottom, 
+    #7ed56fd0, 
+    #28b485d0), 
+    url(../img/hero.jpg);
+
+  background-size: cover;
+  background-position: center;
+  height: 95vh;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
