@@ -1,13 +1,10 @@
-/*
-*COLORS*
-light-green: #7ed56f
-medium-green: #55c57a
-dark-green: #28b485
-*/
-
 $color-primary: #55c57a;
 $color-primary-light: #7ed56f;
 $color-primary-dark: #28b485;
+
+$color-grey-dark: #777;
+$color-white: #fff;
+$color-black: #000;
 
 *,
 *::after,
@@ -63,7 +60,7 @@ body {
 }
 
 .heading-primary {
-  color: #ffffff;
+  color: $color-white;
   text-transform: uppercase;
   margin-bottom: 6rem;
 
@@ -146,17 +143,17 @@ body {
 
 .btn:hover {
   transform: translateY(-.3rem);
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+  box-shadow: 0 1rem 2rem rgba($color-black, .2);
 }
 
 .btn:active {
   transform: translateY(0);
-  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+  box-shadow: 0 .5rem 1rem rgba($color-black, .2);
 }
 
 .btn--white {
-  background-color: #fff;
-  color: #777;
+  background-color: $color-white;
+  color: $color-grey-dark;
 }
 
 .btn::after {
@@ -173,7 +170,7 @@ body {
 }
 
 .btn--white::after {
-  background-color: white;
+  background-color: $color-white;
 }
 
 .btn:hover::after {
