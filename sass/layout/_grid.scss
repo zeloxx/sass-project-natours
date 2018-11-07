@@ -8,6 +8,7 @@
     margin-bottom: $gutter-vertical;
   }
 
+//select all elements where the class attribute starts with "col- so we don't have to repeat this code for each column. Another way to do this is by adding a new class called "col" or something that has these rules.
   [class^="col-"] {
     float: left;
     &:not(:last-child) {
