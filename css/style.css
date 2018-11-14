@@ -4,13 +4,14 @@
 900 - 1200px : tablet landscape
 (1200 - 1800 : default styles)
 1800px + :     big desktop
-*/
-/*
+
 $breakpoint argument choices:
 - phone
 - tab-port
 - tab-land
 - big-desktop
+
+1em = 16px
 */
 @keyframes moveInLeft {
   0% {
